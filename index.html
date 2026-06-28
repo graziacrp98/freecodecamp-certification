@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Food Survey Form</h1>
+    <p id="description">Welcome to this Food Contest. Thank you for helping us improve our experience.</p>
+<form id="survey-form">
+  <label for="name" id="name-label">Name</label>
+<input required type="text" id="name" placeholder="Insert your name">
+
+<label for="email" id="email-label">Email</label>
+<input required type="email" id="email" placeholder="Insert your email">
+
+
+<label for="number" id="number-label">Age</label>
+<input required type="number" id="number" min="1" max="100" placeholder="Insert your age">
+
+
+
+
+<select id="dropdown">
+<option value="yes-option">Yes</option>
+<option value="no-option">No</option>
+
+
+</select>
+<br/>
+<br/>
+<label for="pizza">Pizza</label>
+<input type="radio" name="food-form" value="pizza" id="pizza">
+
+
+<label for="dessert">Dessert</label>
+<input type="radio" name="food-form" value="dessert" id="dessert">
+
+<br/>
+<br/>
+<input type="checkbox" value="lasagna" id="lasagna">
+<label for="lasagna">Lasagna</label>
+
+
+<br/>
+<input type="checkbox" value="Spaghetti" id="spaghetti">
+<label for="spaghetti" >Spaghetti</label>
+
+<br/>
+<input type="checkbox" value="Risotto" id="risotto">
+<label for="risotto">Risotto</label>
+<br/>
+<br/>
+<textarea>
+
+</textarea>
+<br/>
+<br/>
+<button id="submit">Submit</button>
+</form>
+
+
+
+  </body>
+</html>
